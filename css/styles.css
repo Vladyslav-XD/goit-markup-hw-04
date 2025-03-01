@@ -440,8 +440,8 @@ ul {
     display: flex;
     height: 100%;
     width: 100%;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
     background-color: var(--primary-color, #4D5AE5);
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -579,11 +579,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .portfolio__container-item:first-child {
     width: calc((100% - 48px) / 3);
-}
-
-.portfolio__overlay {
-    position: relative;
-    overflow: hidden;
 }
 
 .portfolio__overlay-text {
