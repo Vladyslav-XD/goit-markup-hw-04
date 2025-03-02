@@ -426,13 +426,12 @@ ul {
 .team_social {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     gap: 24px;
 }
 
 .team__social-container {
-    display: flex;
     width: 40px;
     height: 40px;
 }
