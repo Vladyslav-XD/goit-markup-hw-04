@@ -426,9 +426,13 @@ ul {
 .team_social {
     display: flex;
     flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
     gap: 24px;
+}
+
+.team_social .team__social-link {
+    display: flex;
 }
 
 .team__social-container {
@@ -490,6 +494,7 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    margin-top: 0;
 }
 
  .social-list {
